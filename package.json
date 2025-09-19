@@ -1,0 +1,28 @@
+{
+  "name": "data-transfer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node importData/index.mjs",
+    "dev": "node --watch --no-warnings importData/index.mjs"
+  },
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "csv-parser": "^3.2.0",
+    "draftlog": "^1.0.13",
+    "pg": "^8.16.3",
+    "stream-json": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^22.7.4",
+    "@types/pg": "^8.15.5",
+    "@types/stream-json": "^1.7.8",
+    "typescript": "^5.6.2"
+  }
+}
