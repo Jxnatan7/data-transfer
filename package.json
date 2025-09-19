@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node importData/index.mjs",
-    "dev": "node --watch --no-warnings importData/index.mjs"
+    "dev": "node --watch --no-warnings index.mjs"
   },
   "dependencies": {
     "cli-progress": "^3.12.0",
